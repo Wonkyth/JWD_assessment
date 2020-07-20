@@ -9,6 +9,10 @@ header {
 	justify-content: center;
 }
 
+#about {
+	margin-left: 10px;
+}
+
 nav > ul {
 	display: flex;
 }
@@ -38,4 +42,14 @@ img {
 
 h2 {
 	text-align: center;
+}
+
+.contact {
+	text-align: center;
+}
+
+@media (max-width: 576px) {
+	.projects > div {
+		width: 100%;
+	}
 }
