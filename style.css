@@ -24,10 +24,13 @@ img {
 	display: flex;
 	flex-flow: row;
 	flex-wrap: wrap;
-	text-align: center;
 	justify-content: space-around;
 }
 
 .projects > div {
 	width: 33%;
+}
+
+.project-title {
+	text-align: center;
 }
