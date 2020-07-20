@@ -19,3 +19,13 @@ nav > ul > li {
 img {
 	width: 100%;
 }
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.projects > div {
+	width: 33%;
+}
