@@ -22,8 +22,10 @@ img {
 
 .projects {
 	display: flex;
+	flex-flow: row;
 	flex-wrap: wrap;
 	text-align: center;
+	justify-content: space-around;
 }
 
 .projects > div {
